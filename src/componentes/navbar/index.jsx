@@ -1,6 +1,5 @@
 // import { useState } from 'react'
 import './navbar.css'
-import { Link } from "react-router-dom"
 import Checkbox from '../checkbox'
 
 const Navbar = () => {
@@ -14,13 +13,13 @@ const Navbar = () => {
            
             <ul>
                 <li>
-                    <Link to={"./"}>Mensal</Link>
+                    Mensal
                 </li>
                 <li>
                     <Checkbox/>
                 </li>
                 <li>
-                    <Link to={"./anual"}>Anual</Link>
+                    Anual
                 </li>
             </ul>
         </div>
