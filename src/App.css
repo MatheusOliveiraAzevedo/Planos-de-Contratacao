@@ -1,38 +1,31 @@
+:root {
+  --fundoClaro: hsl(240, 78%, 98%);
+ --fonteMenuCabecalho: hsl(234, 14%, 74%);
+ --fonteTextoCard: hsl(233, 13%, 49%);
+ --fonteValorNaoSelecionado: hsl(232, 13%, 33%);
+ --fundoCard1: hsl(236, 72%, 79%);
+ --fundoCard2: hsl(237, 63%, 64%);
+}
+
 .App {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  background-image: url(../src/images/bg-bottom.svg), url(../src/images/bg-top.svg) ;
+  background-size: 20% auto, 25% auto;
+  background-repeat: no-repeat;
+  background-position: bottom left, top right;
+  height: 50vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (max-width: 1440px) {
+  
+  .App {
+    background-image: url(../src/images/bg-top.svg) ;
+    background-size: 60% 1000%;
+    background-position: top right;
+    font-size: 14px;
+    
   }
 }

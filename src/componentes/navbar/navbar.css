@@ -1,0 +1,29 @@
+
+.menuSelecao {
+    margin-bottom: 0;
+}
+
+.menuSelecao ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.menuSelecao ul li {
+    list-style: none;
+    margin: 5px 15px 15px 15px;
+    color: var(--fonteMenuCabecalho);
+}
+
+.menuSelecao ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media screen and (max-width:1440px) {
+    
+
+    
+}
+

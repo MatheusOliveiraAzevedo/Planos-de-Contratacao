@@ -1,0 +1,104 @@
+
+.card {
+    width: 350px;
+    height: 500px;
+    padding: 0 30px 0 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 30px var(--fonteMenuCabecalho) ;
+    color: rgb(88, 88 , 107);
+}
+
+.card h2 {
+    margin: 0;
+    padding-top: 30px;
+}
+
+.cardMaior {
+    background-image: linear-gradient(to right, var(--fundoCard1), var(--fundoCard2));
+    height: 540px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardMaior .valorPlano {
+    color: white;
+}
+
+.cardMaior .beneficios {
+    border-bottom: 0.5px solid white;
+}
+
+
+.valorPlano {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* display: grid;
+    grid-template-columns: 1fr 85%;
+    justify-items: center; */
+    align-items: center;
+    color: var(--fonteValorNaoSelecionado);
+    padding: 35px 0 30px 0;
+}
+
+.preco {
+    font-size: 80px;
+    grid-column: span 1;
+    justify-self: start;
+    margin: 0;
+}
+
+.cifrao{
+    grid-column: span 1;
+    justify-self: end;
+    font-size: 50px;
+    margin: 0;
+}
+
+.beneficios {
+    border-bottom: 0.5px solid var(--fonteMenuCabecalho);
+    padding: 20px;
+    margin: 0;
+}
+
+.botao {
+    font-size: 15px;
+    letter-spacing: 2px;
+    width: 100%;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 30px 0;
+    background-image: linear-gradient(to right, var(--fundoCard1), var(--fundoCard2));
+    color: var(--fundoClaro);
+}
+
+.cardMaior .botaoCardMaior {
+    background-image: linear-gradient(to right, var(--fundoClaro), var(--fundoClaro));
+    color: var(--fundoCard2);
+}
+
+@media screen and (max-width: 1440px) {
+    
+    .card {
+        width: 70%;
+        height: 470px;
+        margin: 0px 0 25px 0;
+    }
+    
+    .cardMaior {
+        height: 470px;
+    }
+
+    .preco {
+        font-size: 60px;
+    }
+
+    .cifrao {
+        font-size: 40px;
+    }
+}
