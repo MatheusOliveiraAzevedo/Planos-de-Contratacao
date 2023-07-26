@@ -19,7 +19,7 @@
 }
 
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1080px) {
   
   .App {
     background-image: url(../src/images/bg-top.svg) ;
