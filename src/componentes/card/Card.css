@@ -82,7 +82,7 @@
     color: var(--fundoCard2);
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1080px) {
     
     .card {
         width: 70%;
